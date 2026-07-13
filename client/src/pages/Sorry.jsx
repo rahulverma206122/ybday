@@ -359,7 +359,7 @@ export default function Sorry() {
   letterSpacing: '0.5px',
   lineHeight: '1.2',
 }}>
-   Say Sorry to me You Fool! 
+   A letter to you! 
 </h1>
         
 <p style={{
@@ -474,34 +474,30 @@ export default function Sorry() {
 },
 
 { 
-  text: "I wait for you beneath the open skies, where the heavens turn into ribbons of light, where silence quietly rests.", 
+  text: "I hope this year brings you lots of happiness, success, and", 
   style: { color: 'rgba(220,190,255,0.9)' } 
 },
 
 { 
-  text: "Every moment drifts away, yet here I stand. The hours pass, the months pass, the years pass and still the clock keeps ticking on.", 
+  text: "beautiful memories. Keep smiling, keep being", 
   style: { color: 'rgba(220,190,255,0.9)' } 
 },
 
 { 
-  text: "But somewhere deep inside my heart, there is still hope — a hope that with every passing day, I may finally feel free again.", 
+  text: "the wonderful person you are, and", 
   style: { color: 'rgba(220,190,255,0.9)' } 
 },
 
 { 
-  text: "And if you ever come back, I know I will never be the same again.", 
+  text: "never stop believing in yourself.Wishing you", 
   style: { color: 'rgba(220,190,255,0.9)' } 
 },
 
 { 
-  text: "But if your heart can no longer love me, then don’t come back at all.", 
+  text: " a day filled with laughter and everything that makes you happy. 💙 ", 
   style: { color: 'rgba(220,190,255,0.9)' } 
 },
 
-{ 
-  text: "I will wait for the next life, the next sky, and another chance to love you again. 💜", 
-  style: { color: 'rgba(220,190,255,0.9)' } 
-},
 {
    text: "Be happy always", style: { color: '#c4a0ff',textAlign: 'center', fontFamily: "'Dancing Script', cursive", fontSize: 'clamp(17px, 4vw, 21px)', fontWeight: '700' } },
 
@@ -531,7 +527,7 @@ export default function Sorry() {
         transition={{ delay: 3 }}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        onClick={() => navigate('/gifts')}
+        onClick={() => navigate('/message')}
         style={{
           marginTop: '30px',
           background: 'linear-gradient(135deg, #9d4edd, #c77dff)',
