@@ -380,7 +380,7 @@ export default function CakeScreen() {
               transition={{ duration: 2, repeat: Infinity }}
               style={{ color: '#fff2d9', fontSize: 'clamp(24px, 6vw, 36px)', marginBottom: '10px', textShadow: '0 0 25px rgba(255,220,150,0.5)' }}
             >
-              Happy Birthday Harshita ✨
+              Happy Birthday Yash ✨
             </motion.h1>
 
             <motion.button
