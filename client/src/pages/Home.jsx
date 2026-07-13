@@ -5,8 +5,8 @@ import { motion } from 'framer-motion'
 import CakeScreen from './CakeScreen'
 
 const hearts = ['💕', '🌸', '✨', '💖', '🌷', '💝', '🎀', '💗']
-const TARGET_DATE = new Date(Date.now() + 0.2 * 60 * 1000)
-//const TARGET_DATE = new Date("2026-07-12T23:59:00");
+//const TARGET_DATE = new Date(Date.now() + 0.2 * 60 * 1000)
+const TARGET_DATE = new Date("2026-07-13T23:59:00");
 
 function useCountdown() {
   const [timeLeft, setTimeLeft] = useState({})
